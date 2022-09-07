@@ -1,0 +1,245 @@
+@font-face {
+    font-family: RobotoLight;
+    src: url(../ArquivosProva/Fonts/Roboto-Light_0.ttf)
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../ArquivosProva/Fonts/Roboto-Regular_0.ttf);
+}
+@font-face {
+    font-family: HelveticaUltraLt;
+    src: url(../ArquivosProva/Fonts/HelveticaUltraLt_0.ttf)
+}
+/* change navbar background on collapse */
+@media (max-width: 768px) 
+{
+    a.nav-link
+    {
+        background: #29abe2;
+    }
+    img.img-fluid.imgConfig
+    {
+        content: url(../ArquivosProva/imagens/index-image-mobile.jpg);
+        width: auto;
+    }
+    img.img-fluid.footerConfig
+    {
+        content: url(../ArquivosProva/imagens/rodape-mobile.jpg);
+        width: auto;
+    }
+
+    .imageText
+    {
+        font-family: HelveticaUltraLt;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        right: 20%;
+        width: auto;
+        color: white;
+        margin: 0px;
+    }
+    .pTitle
+    {
+        font-size: 250%;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .pFooter
+    {
+        
+        font-size: 150%;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    th.line1,th.line2,th.line3,th
+    {
+        
+        border: 1px solid #29abe2;;
+    }
+    table
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+}
+.divCadastro
+{
+    background-color:  #29abe2;
+}
+
+a.nav-link
+{
+    font-size: 20px;
+    font-family: HelveticaUltraLt;
+}
+
+.imageText
+{
+    width: auto;
+    font-family: HelveticaUltraLt;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: white;
+    margin: 0px;
+}
+.pTitle
+{
+    font-size: 330%;
+    margin-bottom: 0px;
+}
+.pFooter
+{
+    
+    font-size: 280%;
+    margin-top: 0px;
+}
+.imageConfig
+{
+    position: relative;
+}
+.imageConfig img
+{
+    max-width: 100%;
+    height: auto;
+}
+.pTitleCadastro
+{
+    color: white;
+    text-align: center;
+    font-size: 330%;
+    margin-bottom: 0px;
+    font-family: HelveticaUltraLt;
+}
+input[type='text'],
+input[type='date'],
+input[type='tel'],
+input[type='email']
+{
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-family: HelveticaUltraLt;
+    
+}
+input[type=button]
+{
+    border: 0;
+    background-color: #012d51;
+    color: #29abe2;
+    width: 15rem;
+    font-size:30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: HelveticaUltraLt;
+}
+
+label 
+{
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    font-family: RobotoRegular;
+}
+.divInputs
+{
+    text-align: center;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.pListaCadastro
+{
+    color: #29abe2;
+    text-align: center;
+    font-size: 330%;
+    margin-bottom: 0px;
+    font-family: HelveticaUltraLt;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+th.line1
+{
+    border-bottom: 1px solid #29abe2;
+    border-right: 1px solid #29abe2;
+    width: 10px;
+    height: 10px;
+    padding: 2px ;
+}
+th.line2
+{
+    border-top:1px solid #29abe2; ;
+    border-right: 1px solid #29abe2;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+}
+th.line3
+{
+    border-bottom: 1px solid #29abe2;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+}
+th.line4
+{
+    border-top: 1px solid #29abe2;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+}
+th
+{
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+}
+.footerText
+{
+    color: white;
+    font-family: RobotoLight;
+}
+.num 
+{
+    font-family: RobotoLigth;
+    color: #012d51;
+}
+.title 
+{
+    color: #012d51;
+    font-family: RobotoRegular;
+}
+.info
+{
+    font-family: HelveticaUltraLt;
+    color: #808080;
+}
+.btnUp
+{
+    margin-left: 80%;
+    background: url(../ArquivosProva/icones/topo-pag.svg);
+    border: transparent;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 1rem;
+}
+
+div.footerConfig
+{
+    font-size: 2rem;
+    text-align: center;
+    background-image: url(../ArquivosProva/imagens/rodape-desktop.jpg);
+}

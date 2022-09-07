@@ -1,0 +1,3 @@
+- Fonte Helvetica não possui o mesmo formato que nas imagens de layout
+- Fonte Roboto Ligth não possui o mesmo formato que nas imagens de layout
+- Não possui a fonte Helvetica Condensed Regular
